@@ -56,7 +56,6 @@ public class Movie {
 
     @Column(nullable = false )
     @NotBlank(message   = "Please provide movies title")
-
     private String poster;
 //    @Column(nullable = false )
 //    @NotBlank(message   = "Please provide movies poster")
