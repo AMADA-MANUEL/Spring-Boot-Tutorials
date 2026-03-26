@@ -1,0 +1,9 @@
+#configuring our database and jpa
+
+
+spring:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:226/movies
+
