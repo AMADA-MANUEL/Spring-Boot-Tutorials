@@ -13,4 +13,5 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
+project:
+  poster: poster/
