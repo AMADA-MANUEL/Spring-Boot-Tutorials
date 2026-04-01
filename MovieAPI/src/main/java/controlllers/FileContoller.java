@@ -39,7 +39,6 @@ public class FileContoller {
         response.setContentType(MediaType.IMAGE_PNG_VALUE); //This forces everything to be treated as PNG
         StreamUtils.copy(resourceFile,response.getOutputStream()); //This streams the file directly to the client
 
-
     }
 
 }
