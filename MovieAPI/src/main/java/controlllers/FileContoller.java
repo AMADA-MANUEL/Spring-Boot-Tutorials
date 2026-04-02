@@ -33,6 +33,7 @@ public class FileContoller {
 
     }
     @GetMapping("/{filename}")
+
     public void serverFileHandler(@PathVariable String filename , HttpServletResponse response) throws IOException {
         InputStream resourceFile = fileservice
                 .getResourceFile(path , filename); //Get file from service
