@@ -1,4 +1,4 @@
 package service;
 
-public class MovieService {
+public interface MovieService {
 }
